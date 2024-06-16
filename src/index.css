@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding:0;
+    background: linear-gradient(to right, #e2e2e2, #c7c7c7);
+    min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  animation: opc 1s;
+}
+ 
+@keyframes poc {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+

@@ -1,0 +1,58 @@
+.TelaLogin{ 
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 25.5vh;
+    color:white;
+    }
+
+.senha{
+    color:white;
+        }
+
+.senha:hover{
+        color:rgb(41, 40, 40);
+        }
+
+.TelaLogin h1{    
+       font-size:260%;
+        }
+.TelaLogin h2{    
+           font-size:160%;
+            margin-bottom: 5px;
+            margin-top: 2px;
+ }
+    
+    
+ .TelaLogin form {    
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 9.5vw;
+}
+    
+.TelaLogin form input{  
+    border-radius: 9px;  
+    border-style: solid;
+    margin: 1vh;
+    font-size: 170%;
+    }
+    
+     .TelaLogin form button{  
+        background-color: transparent; /* Torna o botão transparente */
+        border-radius: 5px;  
+        border-style: solid;
+        border-color: rgb(134, 132, 132);
+        color: white; /* Cor do texto */
+        font-size: 18px; /* Tamanho da fonte */
+        padding: 10px 15px; /* Espaçamento interno */
+        cursor: pointer; /* Mostra um cursor de ponteiro ao passar o mouse */
+        margin-top: 7px;
+        margin-bottom: 3px;
+         }
+    .TelaLogin form button:hover {
+            background-color: rgba(255, 255, 255, 0.3); /* Adiciona uma leve opacidade quando passa o mouse */
+          }

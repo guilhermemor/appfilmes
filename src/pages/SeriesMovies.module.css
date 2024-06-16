@@ -1,0 +1,90 @@
+@keyframes load {
+    0%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes roll {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.list{
+height: 100%;
+width: 100%;    
+display: flex;
+justify-content: center;
+flex-direction: column;
+animation: load 1s;
+}
+
+.load{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.load img{
+animation: roll 600ms infinite;
+width: 10%;
+}
+
+.list h2{
+    margin-top: 8%;
+    color: white;
+    text-align: center;
+    padding-bottom: 1vh;
+}
+.list h2{
+    margin-top: 8%;
+    color: white;
+    text-align: center;
+    padding-bottom: 2vh;
+}
+.geners{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+.geners button{
+        margin: 1vh;
+        background-color: transparent; /* Torna o botão transparente */
+        border: none; /* Remove a borda */
+        color: white; /* Cor do texto */
+        font-size: 17px; /* Tamanho da fonte */
+        padding: 10px 20px; /* Espaçamento interno */
+        cursor: pointer; /* Mostra um cursor de ponteiro ao passar o mouse */
+      }
+      
+      .geners button:hover {
+        background-color: rgba(255, 255, 255, 0.3); /* Adiciona uma leve opacidade quando passa o mouse */
+      }
+
+    @media (max-width: 900px) 
+  {
+    .geners button{
+        margin: 1vh;
+        background-color: transparent; /* Torna o botão transparente */
+        border: none; /* Remove a borda */
+        color: white; /* Cor do texto */
+        font-size: 15px; /* Tamanho da fonte */
+        padding: 1px 2px; /* Espaçamento interno */
+        cursor: pointer; /* Mostra um cursor de ponteiro ao passar o mouse */
+      }
+
+      .geners{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 2em;
+    }
+
+  }

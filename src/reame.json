@@ -1,0 +1,111 @@
+{
+  "adult": false,
+  "backdrop_path": null,
+  "created_by": [
+    {
+      "id": 81355,
+      "credit_id": "5eca77a7140bad001b1cda10",
+      "name": "Yukihiko Tsutsumi",
+      "gender": 2,
+      "profile_path": "/oqcs7jNbcoSeZYUPFblhR75truZ.jpg"
+    }
+  ],
+  "episode_run_time": [
+    45,
+    60
+  ],
+  "first_air_date": "2003-07-04",
+  "genres": [
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 35,
+      "name": "Comedy"
+    }
+  ],
+  "homepage": "",
+  "id": 2213,
+  "in_production": false,
+  "languages": [
+    "ja"
+  ],
+  "last_air_date": "2003-09-12",
+  "last_episode_to_air": {
+    "id": 154841,
+    "name": "Liberty from Virginity!",
+    "overview": "",
+    "vote_average": 0,
+    "vote_count": 0,
+    "air_date": "2003-09-12",
+    "episode_number": 11,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": null,
+    "season_number": 1,
+    "show_id": 2213,
+    "still_path": null
+  },
+  "name": "Stand Up!!",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 160,
+      "logo_path": "/lUACMATs6jcscXIrzNCQzbvNVN5.png",
+      "name": "TBS",
+      "origin_country": "JP"
+    }
+  ],
+  "number_of_episodes": 11,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "JP"
+  ],
+  "original_language": "ja",
+  "original_name": "スタンドアップ!!",
+  "overview": "Stand Up!! is a Japanese television drama which ran weekly for three months in 2003. The drama, which stars Kazunari Ninomiya of Arashi and Tomohisa Yamashita of NEWS, centers around the lives of the last four virgins left in their highschool as they struggle to lose their virginity over their final high school summer vacation. A 6-DVD Box Set featuring all eleven episodes, as well as six individual volumes were released in Japan on December 18, 2003.",
+  "popularity": 23.051,
+  "poster_path": "/bHmves3BclfGcZbVeuc5yfWshqF.jpg",
+  "production_companies": [],
+  "production_countries": [
+    {
+      "iso_3166_1": "JP",
+      "name": "Japan"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2003-07-04",
+      "episode_count": 1,
+      "id": 6790,
+      "name": "Specials",
+      "overview": "",
+      "poster_path": null,
+      "season_number": 0,
+      "vote_average": 0
+    },
+    {
+      "air_date": "2003-07-04",
+      "episode_count": 11,
+      "id": 6789,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": null,
+      "season_number": 1,
+      "vote_average": 0
+    }
+  ],
+  "spoken_languages": [
+    {
+      "english_name": "Japanese",
+      "iso_639_1": "ja",
+      "name": "日本語"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "",
+  "type": "Scripted",
+  "vote_average": 6.5,
+  "vote_count": 11
+}

@@ -1,0 +1,219 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 6px;
+  background-color: rgba(170, 168, 168, 0.733)
+}
+
+.logo img {
+width: 13vh;
+}
+.logo {
+    text-align: center;
+  margin-right: 47%;
+}
+.buttons button {
+  background-color: transparent; /* Torna o botão transparente */
+  border: none; /* Remove a borda */
+  color: white; /* Cor do texto */
+  font-size: 17px; /* Tamanho da fonte */
+  padding: 10px 20px; /* Espaçamento interno */
+  cursor: pointer; /* Mostra um cursor de ponteiro ao passar o mouse */
+  
+}
+
+.buttons button:hover {
+  background-color: rgba(255, 255, 255, 0.3); /* Adiciona uma leve opacidade quando passa o mouse */
+}
+.buttons span {
+font-weight: bold;
+font-size: 18px;
+text-decoration: none;
+color: white;
+}
+
+.destaque{
+align-items: center;
+width: 100%;
+height: 100%;
+
+}
+.destaque img{
+width: 100%;
+  }
+  
+
+.destaqueTexto{
+  position: absolute; 
+  top: 71vh; 
+  left: 5vh;    
+  overflow: hidden; 
+  
+    }
+
+.destaqueTexto h1 , h3{
+color: white;
+margin-top: -6px;     
+}
+
+.destaqueTexto button {
+  margin-top:-6px;
+  background-color: rgba(255, 255, 255, 0.1);
+   border: none; 
+   border-radius: 5px;
+  color: white; 
+  font-size: 20px; 
+  padding: 10px 10px; 
+  cursor: pointer; 
+}
+
+.destaqueTexto button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.section{  
+width: 100%;
+}
+.section h2{
+padding: 25px;
+color: white;
+padding-top: 30px;
+  }
+.galery{
+width: 100%;
+display:inline;
+}
+.galery img{
+width: 200px;
+height: 300px;
+border-radius: 15px;
+margin-left: 20px;
+margin-top: -15px;
+margin-bottom: 25px;
+}
+.galery img:hover{
+  border-radius: 10px;
+  border-color: rgb(61, 61, 13);
+  border-style: double;
+  }
+
+.footer {
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.3); 
+  padding: 0.5vh;
+  text-align: center;
+  color: #fff;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-button {
+  background-color: #007bff; 
+  color: #fff; 
+  border: none;
+  padding: 3px 7px;
+  margin: 0 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.social-button:hover {
+  background-color: #0056b3;
+}
+
+.facebook {
+  background-color: #3b5998; 
+}
+
+.twitter {
+  background-color: #1da1f2; 
+}
+
+.instagram {
+  background-color: #c13584; 
+}
+
+.pop-out-container {
+  position: relative;
+  display: fixed;
+}
+
+.pop-out-container.open {
+  display: block;
+}
+
+
+@media (max-width: 900px) {
+  /* Ajustes para telas menores, como dispositivos móveis _________________________________________________________________________________*/
+  
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(170, 168, 168);
+    padding-bottom: 20px;
+    position:relative;
+  }
+
+  .logo {
+    margin:0;
+  }
+
+  .logo img{
+    height: auto;
+  }
+.destaque{
+  height:25vh;
+}
+  .destaqueTexto{
+  width: 80%;
+  color: white;
+  margin-left: 5px;
+  overflow: none;
+  position: relative;
+  top:-120px;
+  left:0;
+      }
+  
+  .destaqueTexto h1 {
+  font-size: 0.9em;  
+  margin-top: -5px; 
+  }
+  
+  .destaqueTexto h3{
+  font-size: 0.7em;
+  margin-top: -5px;
+    }
+
+    .destaqueTexto button{
+      font-size: 0.7em;
+      margin-top: -7px;
+        }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .galery img {
+    width: 100px;
+    height: 150px;
+    margin-left: 10px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+  }
+  
+  .section h2 {
+    font-size: 1.2em;
+  }
+}
+

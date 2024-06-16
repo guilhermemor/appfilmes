@@ -1,0 +1,53 @@
+
+  .overlay {
+    background: #ececec3a;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+
+.content{
+background-color: black;
+}
+
+.fechar {
+    padding: 5px;
+    font-size: large;
+    float: bottom;
+    cursor: pointer;
+    border: none;
+  }
+  .fechar:hover {
+   color: rgba(0, 0, 0, 0.486);
+  }
+
+  .popesquisa{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: #e98e06;
+  }
+
+  .popesquisa p{
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .popesquisa span{
+    font-weight: bold;
+    font-size: 3em;
+  }
+
+
+.popesquisa button{
+    font-size: 3vh;
+    border-radius: 7px;
+    border-color: rgba(0, 0, 0, 0.164);
+}
+  .popesquisa input{
+    margin: 3px;
+    font-size: 3vh;
+  }

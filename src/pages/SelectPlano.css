@@ -1,0 +1,46 @@
+.telaPlano{ 
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 15.5vh;
+    text-decoration: none;
+    
+    }
+a:link{
+        text-decoration: none!important;
+        cursor: pointer;
+      }
+
+.telaPlano h1{    
+     color: white;
+             }
+             
+.opcs{
+padding-top: 1vh;
+padding-bottom: 1vh;
+
+}
+
+ .Plano{
+    border: 3px solid;
+    border-radius: 7px;
+    height: 350px;
+    width: 300px;
+    background-color: rgba(99, 98, 98, 0.425); 
+    color:white;
+    padding: 6px 5px 5px 8px;
+    margin-bottom: 1.7vh;
+    }
+
+.Plano p{
+    font-size: 21px;
+
+        }
+.Plano:hover{
+        background-color: rgba(99, 98, 98, 0.705);    
+        }
+
